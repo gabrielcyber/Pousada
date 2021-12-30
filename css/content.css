@@ -1,0 +1,108 @@
+/*Box de apresentação das section*/
+.section-presentation {
+    margin: 50px 0 60px;
+    text-align: center;
+}
+
+.section-presentation > h2 {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.section-presentation > p {
+    margin-bottom: 30px;
+}
+
+/*Seção de quartos*/
+.bedroom-box {
+    text-align: center;
+}
+
+.bedroom {
+    height: 10%;
+    width: 28%;
+    margin: 10px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.bedroom > img {
+    height: 35vh;
+    width: 100%;
+}
+
+.bedroom > .internal-link {
+    padding-block: 15px;
+    border-bottom: 2px solid #77A8A2;
+    display: block;
+}
+
+/*Mapa*/
+#rota > .container-map {
+    margin-bottom: 90vh;
+}
+
+#rota iframe {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+
+a[class$="link"] {
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*Descrições da pousada*/
+.inn-box-description {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.inn-description {
+    height: 120px;
+    width: 45%;
+    margin: 10px 20px 10px;
+    display: flex;
+}
+
+.inn-description > div {
+    height: 120px;
+    width: 80%;
+}
+.inn-description > img {
+    height: 100%;
+    width: 120px;
+    object-fit: cover;
+}
+.inn-description > div > * {
+    padding: 10px;
+}
+
+.bedroom-informations {
+    width: 80%;
+    padding-top: 40px;
+    margin: 0 auto;  
+}
+
+.bedroom-informations > h3 {
+    text-align: center;
+}
+
+.bedroom-informations > ul {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.bedroom-informations li {
+    width: 20%;
+    padding: 20px;
+}

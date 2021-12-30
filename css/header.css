@@ -1,0 +1,47 @@
+/*
+#d5d5d5;
+#3d3d3d
+*/
+
+header {
+    min-height: 9vh;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 5px #d5d5d5;
+    position: fixed;
+    z-index: 1;
+}
+
+header > .limitation-menu {
+    width: 90%;
+    margin: 15px;
+    position: relative;
+    left: 100px;
+}
+
+.logotipo-link {
+    color: #3d3d3d;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logotipo-link > span {
+    color: #5252dd;
+}
+
+.navigation-menu {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.navigation-menu  li{
+    padding-inline: 40px;
+    list-style: none;
+    display: inline-block;
+}

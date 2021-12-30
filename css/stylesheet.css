@@ -1,0 +1,16 @@
+@import url("presentation.css");
+
+* {
+    margin: 0;
+}
+
+main {
+    padding: 20px 40px;
+}
+
+body {
+    padding: unset;
+    color: #3d3d3d;
+    font-family: "Source Sans Pro", Verdana, sans-serif;
+    box-sizing: border-box;
+}

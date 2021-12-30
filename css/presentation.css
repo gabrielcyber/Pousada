@@ -1,0 +1,22 @@
+.title-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/bedroom/img-fundo.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+
+.title-design {
+    height: 30vh;
+    width: 40vw;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #0a9077b3;
+    color: #fff;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
